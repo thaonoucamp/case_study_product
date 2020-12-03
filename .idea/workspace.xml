@@ -29,9 +29,6 @@
       <change afterPath="$PROJECT_DIR$/../addProduct/demo.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../addProduct/demo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../addProduct/editProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControlProduct.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addProduct.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../function1/calFunction.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../function1/checkPrime.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../function1/convertTemperture.html" afterDir="false" />
@@ -54,6 +51,11 @@
       <change beforePath="$PROJECT_DIR$/../ARRAY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ARRAY/addItem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/addItem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ARRAY/coach.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/coach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControlProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/ControlProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addProduct.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +65,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l8WWDi1RmOsT8FMeBLNwAF4ond" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,6 +84,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606979228390</updated>
-      <workItem from="1606979229444" duration="2931000" />
+      <workItem from="1606979229444" duration="8741000" />
+      <workItem from="1606992555875" duration="325000" />
     </task>
     <servers />
   </component>
@@ -100,10 +104,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="829" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1606979512182">
+    <state x="829" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1606990773799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="829" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606979512182" />
+    <state x="829" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606990773799" />
     <state x="680" y="164" key="run.anything.popup" timestamp="1606981094044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

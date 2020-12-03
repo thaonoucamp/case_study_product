@@ -2,12 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
-    <script src="class-product.js"></script>
+    <title>$ QUAN LY SAN PHAM $ </title>
 </head>
 <body>
-<script>
+<input type="text" placeholder="New Product" id="newProduct">
+<button value="Add" onclick="addNewProduct()">ADD</button>
+<table style="border: 1px solid">
+    <thead>
+    <td>STT</td>
+    <td>Product</td>
+    <td>Edit</td>
+    <td>Delete</td>
 
+    </thead>
+    <tbody id="list">
+    <tr>
+        <td>STT</td>
+        <td>Product</td>
+        <td><button onclick="editProduct()">Edit</button></td>
+        <td><button onclick="deleteProduct()">Delete</button></td>
+    </tr>
+
+    </tbody>
+</table>
+<script>
+let Product = ["Iphone", "Mac", "Air", "Ipad",];
+function showAllProduct() {
+    let content = "";
+    for (let i = 0; i < Product.length; i++) {
+        content += ' <tr>\n' +
+            '        <td>'+(i+1)+'</td>\n' +
+            '        <td>'+Product[i]+'</td>\n' +
+            '        <td><button onclick="editProduct('+i+')">Edit</button></td>\n' +
+            '        <td><button onclick="deleteProduct('+i+')">Delete</button></td>\n' +
+            '    </tr>';
+    }
+    document.getElementById("list").innerHTML = content;
+}
 </script>
 </body>
 </html>

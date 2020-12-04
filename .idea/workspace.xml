@@ -53,7 +53,6 @@
       <change beforePath="$PROJECT_DIR$/../ARRAY/coach.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/coach.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControlProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/ControlProduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/class-product.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -95,7 +94,8 @@
       <updated>1606979228390</updated>
       <workItem from="1606979229444" duration="8741000" />
       <workItem from="1606992555875" duration="325000" />
-      <workItem from="1607002036304" duration="3523000" />
+      <workItem from="1607002036304" duration="3835000" />
+      <workItem from="1607045853165" duration="4365000" />
     </task>
     <servers />
   </component>
@@ -107,9 +107,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="829" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606990773799" />
-    <state x="680" y="164" key="run.anything.popup" timestamp="1606981094044">
+    <state x="680" y="164" key="run.anything.popup" timestamp="1607048447092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="680" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606981094044" />
+    <state x="680" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607048447092" />
   </component>
 </project>

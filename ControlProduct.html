@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>$ QUAN LY SAN PHAM $ </title>
+    <script src="class-product.js"></script>
 </head>
+<h1>$ APPLE STORE $</h1>
 <body>
 
-
-<!--<img src="apple-watch-s6-lte-44mm-vien-thep-day-thep-240920-10531512.jpg" height="433" width="780"/>-->
-<!--<img src="iphone-2020-600x600.jpg" height="600" width="600"/>-->
-<!--<img src="vi-vn-macbook-air-2017.jpg" height="444" width="800"/>-->
-<!--<img src="tai-nghe-bluetooth-airpods-2-wireless-charge-mrxj2-3-1-org.jpg" height="533" width="800"/>-->
 <input type="text" placeholder="New Product" id="newProduct">
 <button value="Add" onclick="addNewProduct()">ADD</button>
-<br><table style="border: 1px solid">
+<table style="border: 1px solid" width="100%">
 
     <thead>
+<!--     Dong tieu de;-->
     <td>STT</td>
     <td>Product</td>
     <td>Price</td>
+    <td>Picture</td>
     <td>Edit</td>
     <td>Delete</td>
 
     </thead>
     <tbody id="list">
+<!--    Dong noi dung san pham;-->
     <tr>
         <td>STT</td>
         <td>Product</td>
@@ -36,25 +36,42 @@
     </tbody>
 </table>
 <script>
-    let product = ["Iphone", "Mac", "Air", "Ipad",];
-    let price = ['$1000','$1500','$200','$500'];
-    let picture = ["<img src=\"apple-watch-s6-lte-44mm-vien-thep-day-thep-240920-10531512.jpg\" height=\"50\" width=\"50\"/>",
-        "p2","p3","p4"];
+    // // Tao bien la mang chua danh sach spham/gia/anh;
+    // let product = ["Iphone", "Mac", "Air", "Ipad"];
+    // let price = ['$1000','$1500','$200','$500'];
+    // let picture =
+    //     [
+    //     "<img src=\"iphone-2020-600x600.jpg\" height=\"30\" width=\"30\"/>",
+    //     "<img src=\"vi-vn-macbook-air-2017.jpg\" height=\"30\" width=\"30\"/>",
+    //         "<img src=\"tai-nghe-bluetooth-airpods-2-wireless-charge-mrxj2-3-1-org.jpg\" height=\"30\" width=\"30\"/>",
+    //     "<img src=\"apple-watch-s6-lte-44mm-vien-thep-day-thep-240920-10531512.jpg\" height=\"30\" width=\"30\"/>"
+    //     ];
+    let product = [];
+    product.push(Iphone);
+    product.push(Mac);
+    product.push(Air);
+    product.push(Ipad);
+    product.push(Apwatch);
+
     showAllProduct();
+    // Ham hien thi danh sach spham;
     function showAllProduct() {
+        // Tao bien chua noi dung;
     let content = "";
     for (let i = 0; i < product.length; i++) {
+        // Cho 1 dong chua noi dung vao vong lap;
         content += ' <tr>\n' +
             '        <td>'+(i+1)+'</td>\n' +
-            '        <td>'+product[i]+'</td>\n' +
-            '        <td>'+price[i]+'</td>\n' +
-            '        <td>'+picture[i]+'</td>\n' +
+            '        <td>'+product[i]._name+'</td>\n' +
+            '        <td>'+product[i]._price+'</td>\n' +
+            '        <td>'+product[i]._picture+'</td>\n' +
             '        <td><button onclick="editProduct('+i+')">Edit</button></td>\n' +
             '        <td><button onclick="deleteProduct('+i+')">Delete</button></td>\n' +
             '    </tr>';
     }
+    // Gan noi dung bang id(danh sach) vao DOM;
     document.getElementById("list").innerHTML = content;
-}
+    }
 function addNewProduct() {
     // B1: Lay ten spham tu input;
     let newP = document.getElementById("newProduct").value;

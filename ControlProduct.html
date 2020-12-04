@@ -5,6 +5,12 @@
     <title>$ QUAN LY SAN PHAM $ </title>
 </head>
 <body>
+
+
+<!--<img src="apple-watch-s6-lte-44mm-vien-thep-day-thep-240920-10531512.jpg" height="433" width="780"/>-->
+<!--<img src="iphone-2020-600x600.jpg" height="600" width="600"/>-->
+<!--<img src="vi-vn-macbook-air-2017.jpg" height="444" width="800"/>-->
+<!--<img src="tai-nghe-bluetooth-airpods-2-wireless-charge-mrxj2-3-1-org.jpg" height="533" width="800"/>-->
 <input type="text" placeholder="New Product" id="newProduct">
 <button value="Add" onclick="addNewProduct()">ADD</button>
 <br><table style="border: 1px solid">
@@ -12,6 +18,7 @@
     <thead>
     <td>STT</td>
     <td>Product</td>
+    <td>Price</td>
     <td>Edit</td>
     <td>Delete</td>
 
@@ -20,6 +27,8 @@
     <tr>
         <td>STT</td>
         <td>Product</td>
+        <td>Price</td>
+        <td>Picture</td>
         <td><button onclick="editProduct()">Edit</button></td>
         <td><button onclick="deleteProduct()">Delete</button></td>
     </tr>
@@ -28,6 +37,9 @@
 </table>
 <script>
     let product = ["Iphone", "Mac", "Air", "Ipad",];
+    let price = ['$1000','$1500','$200','$500'];
+    let picture = ["<img src=\"apple-watch-s6-lte-44mm-vien-thep-day-thep-240920-10531512.jpg\" height=\"50\" width=\"50\"/>",
+        "p2","p3","p4"];
     showAllProduct();
     function showAllProduct() {
     let content = "";
@@ -35,6 +47,8 @@
         content += ' <tr>\n' +
             '        <td>'+(i+1)+'</td>\n' +
             '        <td>'+product[i]+'</td>\n' +
+            '        <td>'+price[i]+'</td>\n' +
+            '        <td>'+picture[i]+'</td>\n' +
             '        <td><button onclick="editProduct('+i+')">Edit</button></td>\n' +
             '        <td><button onclick="deleteProduct('+i+')">Delete</button></td>\n' +
             '    </tr>';

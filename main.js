@@ -26,22 +26,30 @@ function showAllProduct() {
 }
 function addNewProduct() {
     // B1: Lay ten spham tu input;
-    let newP = document.getElementById("newProduct").value;
+    let newName = document.getElementById("newName").value;
+    let newPrice = document.getElementById("newPrice").value;
+    let newPicture = document.getElementById("newPicture").value;
     // B2: Them spham moi vao danh sach;
-    product.push(newP);
+    product.push({
+        _name: newName,
+        _price : '$'+newPrice,
+        _picture:'<img src="'+newPicture+'" height="50" width="50"/>'
+    });
     // B3: Hien thi danh sach moi;
     showAllProduct("newProduct");
     // B4: Tra lai gia ban dau cho input;
-    document.getElementById("newProduct").value = "";
+    document.getElementById("newName").value = "";
+    document.getElementById("newPrice").value = "";
+    document.getElementById("newPicture").value = "";
 }
 function editProduct(index) {
     // B1: Truy cap den vi tri san pham can sua;
-    let newName = prompt("Hay sua lai san pham :",product[index].);
+    let newName = prompt("Hay sua lai san pham :",product[index].name);
     // B2: Gan gia tri moi cho vi tri;
-    product[index] = newName;
+    product[index].name = newName;
     // B3: Hien thi lai danh sach;
     showAllProduct();
-}name
+}
 function deleteProduct(index) {
     // B1: Tim vi tri spham can xoa;
     product.splice(index,1);

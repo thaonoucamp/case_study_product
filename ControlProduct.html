@@ -29,7 +29,9 @@
 <h1>$ APPLE STORE $</h1>
 <body>
 
-<input type="text"  placeholder="New Product" id="newProduct">
+<input type="text"  placeholder="New name" id="newName">
+<input type="text"  placeholder="New Price" id="newPrice">
+<input type="text"  placeholder="New Picture" id="newPicture">
 <button class="add" value="Add" onclick="addNewProduct()">ADD</button><br><br>
 <table style="border: 5px solid" width="100%">
 
@@ -45,14 +47,14 @@
     </thead>
     <tbody id="list">
 <!--    Dong noi dung san pham;-->
-<!--    <tr>-->
-<!--        <td>STT</td>-->
-<!--        <td>Product</td>-->
-<!--        <td>Price</td>-->
-<!--        <td>Picture</td>-->
-<!--        <td><button onclick="editProduct()" class="edit">Edit</button></td>-->
-<!--        <td><button onclick="deleteProduct()" class="delete">Delete</button></td>-->
-<!--&lt     </tr>&ndash;&gt;-->
+    <tr>
+        <td>STT</td>
+        <td>Product</td>
+        <td>Price</td>
+        <td>Picture</td>
+        <td><button onclick="editProduct()" class="edit">Edit</button></td>
+        <td><button onclick="deleteProduct()" class="delete">Delete</button></td>
+    </tr>
 
     </tbody>
 </table>

@@ -12,7 +12,6 @@
       <change afterPath="$PROJECT_DIR$/../Array-pro/bai-tap-9.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Array-pro/bai_tap_1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Array-pro/tam-giac-sao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Date_OOP/Date.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Date_OOP/Date.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Date_OOP/Rectangle.html" afterDir="false" />
@@ -53,8 +52,7 @@
       <change beforePath="$PROJECT_DIR$/../ARRAY/addItem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/addItem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ARRAY/coach.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ARRAY/coach.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControlProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/ControlProduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/class-product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1606992555875" duration="325000" />
       <workItem from="1607002036304" duration="3835000" />
       <workItem from="1607045853165" duration="19087000" />
-      <workItem from="1607304956086" duration="2032000" />
+      <workItem from="1607304956086" duration="5020000" />
     </task>
     <servers />
   </component>

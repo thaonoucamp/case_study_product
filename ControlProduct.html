@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>$ QUAN LY SAN PHAM $ </title>
-    <script src="class-product.js"></script>
+    <style>
+    input {
+        background-color: powderblue;
+    }
+    .add {
+        background-color: chartreuse;
+    }
+    .delete {
+        background-color: red;
+    }
+    .edit {
+        background-color: yellow;
+    }
+
+    table {
+        background-color: powderblue;
+    }
+    button {
+        background-color: chartreuse;
+    }
+
+    </style>
 </head>
 <h1>$ APPLE STORE $</h1>
 <body>
 
-<input type="text" placeholder="New Product" id="newProduct">
-<button value="Add" onclick="addNewProduct()">ADD</button>
-<table style="border: 1px solid" width="100%">
+<input type="text"  placeholder="New Product" id="newProduct">
+<button class="add" value="Add" onclick="addNewProduct()">ADD</button><br><br>
+<table style="border: 5px solid" width="100%">
 
     <thead>
 <!--     Dong tieu de;-->
@@ -24,78 +45,18 @@
     </thead>
     <tbody id="list">
 <!--    Dong noi dung san pham;-->
-    <tr>
-        <td>STT</td>
-        <td>Product</td>
-        <td>Price</td>
-        <td>Picture</td>
-        <td><button onclick="editProduct()">Edit</button></td>
-        <td><button onclick="deleteProduct()">Delete</button></td>
-    </tr>
+<!--    <tr>-->
+<!--        <td>STT</td>-->
+<!--        <td>Product</td>-->
+<!--        <td>Price</td>-->
+<!--        <td>Picture</td>-->
+<!--        <td><button onclick="editProduct()" class="edit">Edit</button></td>-->
+<!--        <td><button onclick="deleteProduct()" class="delete">Delete</button></td>-->
+<!--    </tr>-->
 
     </tbody>
 </table>
-<script>
-    // // Tao bien la mang chua danh sach spham/gia/anh;
-    // let product = ["Iphone", "Mac", "Air", "Ipad"];
-    // let price = ['$1000','$1500','$200','$500'];
-    // let picture =
-    //     [
-    //     "<img src=\"iphone-2020-600x600.jpg\" height=\"30\" width=\"30\"/>",
-    //     "<img src=\"vi-vn-macbook-air-2017.jpg\" height=\"30\" width=\"30\"/>",
-    //         "<img src=\"tai-nghe-bluetooth-airpods-2-wireless-charge-mrxj2-3-1-org.jpg\" height=\"30\" width=\"30\"/>",
-    //     "<img src=\"apple-watch-s6-lte-44mm-vien-thep-day-thep-240920-10531512.jpg\" height=\"30\" width=\"30\"/>"
-    //     ];
-    let product = [];
-    product.push(Iphone);
-    product.push(Mac);
-    product.push(Air);
-    product.push(Ipad);
-    product.push(Apwatch);
-
-    showAllProduct();
-    // Ham hien thi danh sach spham;
-    function showAllProduct() {
-        // Tao bien chua noi dung;
-    let content = "";
-    for (let i = 0; i < product.length; i++) {
-        // Cho 1 dong chua noi dung vao vong lap;
-        content += ' <tr>\n' +
-            '        <td>'+(i+1)+'</td>\n' +
-            '        <td>'+product[i]._name+'</td>\n' +
-            '        <td>'+product[i]._price+'</td>\n' +
-            '        <td>'+product[i]._picture+'</td>\n' +
-            '        <td><button onclick="editProduct('+i+')">Edit</button></td>\n' +
-            '        <td><button onclick="deleteProduct('+i+')">Delete</button></td>\n' +
-            '    </tr>';
-    }
-    // Gan noi dung bang id(danh sach) vao DOM;
-    document.getElementById("list").innerHTML = content;
-    }
-function addNewProduct() {
-    // B1: Lay ten spham tu input;
-    let newP = document.getElementById("newProduct").value;
-    // B2: Them spham moi vao danh sach;
-    product.push(newP);
-    // B3: Hien thi danh sach moi;
-    showAllProduct("newProduct");
-    // B4: Tra lai gia ban dau cho input;
-    document.getElementById("newProduct").value = "";
-}
-function editProduct(index) {
-    // B1: Truy cap den vi tri san pham can sua;
-    let newName = prompt("Hay sua lai san pham :",product[index]);
-    // B2: Gan gia tri moi cho vi tri;
-    product[index] = newName;
-    // B3: Hien thi lai danh sach;
-    showAllProduct();
-}
-function deleteProduct(index) {
-    // B1: Tim vi tri spham can xoa;
-    product.splice(index,1);
-    // B2: Hien thi lai danh sach;
-    showAllProduct();
-}
-</script>
+<script src="class-product.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

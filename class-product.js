@@ -30,7 +30,7 @@ class Product {
         this._picture = value;
     }
 }
-// Khoi tao var = new doi tuong(truyen doi so);
+// Khoi tao var = new doi tuong(doi so);
 let Iphone = new Product('Iphone 12','$1000',
     "<img src=\"iphone-2020-600x600.jpg\" height=\"50\" width=\"50\"/>");
 // In ra doi tuong this.property + ...);

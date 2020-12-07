@@ -12,6 +12,7 @@
       <change afterPath="$PROJECT_DIR$/../Array-pro/bai-tap-9.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Array-pro/bai_tap_1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Array-pro/tam-giac-sao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Date_OOP/Date.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Date_OOP/Date.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Date_OOP/Rectangle.html" afterDir="false" />
@@ -63,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -96,7 +97,8 @@
       <workItem from="1606979229444" duration="8741000" />
       <workItem from="1606992555875" duration="325000" />
       <workItem from="1607002036304" duration="3835000" />
-      <workItem from="1607045853165" duration="17709000" />
+      <workItem from="1607045853165" duration="19087000" />
+      <workItem from="1607304956086" duration="2032000" />
     </task>
     <servers />
   </component>
@@ -108,6 +110,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="829" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606990773799" />
+    <state x="803" y="122" key="FileChooserDialogImpl" timestamp="1607074001900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="803" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607074001900" />
     <state x="680" y="164" key="run.anything.popup" timestamp="1607065440920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
